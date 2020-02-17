@@ -1,2 +1,2 @@
 # Learning-Journal
-A collection of leanring practices! 
+A collection of learning practices! 
