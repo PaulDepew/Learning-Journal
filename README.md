@@ -1,7 +1,7 @@
 # Learning Journal
 A collection of learning practices! 
 
-
+# [What is **Markdown?**](docs/markdown.md) 
 
 # [What is **Growth Mindset?**](docs/markdown.md) 
 > *Growth mindset is a method of staying connected to education. This was instilled in me in college with the Liberal Arts mindeset and I have taken it to heart in my life philosophies.*
