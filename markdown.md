@@ -18,13 +18,15 @@
 
 ```[This is Google](www.google.com "Google Home Page") ```
 
-> If you want to link to an internal Repo page, instead of a www link you insert the file name preceded by a /
+> If you want to link to an internal Repo page, instead of a www link you insert the file name preceded by a / 
+
  ```[Markdown](/Markdown.md)```
  
- > If you would like to provide a download link to the file, remove the / preceding the file name
+ > If you would like to provide a download link to the file, remove the / preceding the file name 
+ 
  ```[Markdown](Markdown.md)```
 
-## If you are trying to paste code snippets, wrap the snippet in ``` ```
+## If you are trying to paste code snippets, wrap the snippet in '```'
 
 ## Unordered lists are fairly simple, just provide a **-** or **+** in front of a line to put it into a list
 > - 1st thing
