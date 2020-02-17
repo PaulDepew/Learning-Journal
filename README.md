@@ -2,10 +2,9 @@
 A collection of learning practices! 
 
 # What is Growth Mindset?
-Growth mindset is a method of staying connected to education. Coming from a liberal arts background, eternal learning is alwats 
+Growth mindset is a method of staying connected to education. This was instilled in me in college with the Liberal Arts mindeset and I have taken it to heart in my life philosophies. 
 
-    function fancyAlert(arg) {
-      if(arg) {
-        $.facebox({div:'#foo'})
-      }
-    }
+## Remember to always stay in the Growth Mindset
+![Growth Mindset Image](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/NewGrowthMindset2.png)
+
+   
