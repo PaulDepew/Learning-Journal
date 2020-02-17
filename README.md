@@ -1,4 +1,5 @@
 # Learning Journal
+
 A collection of learning practices! 
 
 ## [What is **Markdown?**](markdown.md "Markdown") 
