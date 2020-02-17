@@ -3,7 +3,7 @@ A collection of learning practices!
 
 
 
-# [What is **Growth Mindset?**](documents/markdown.md) 
+# [What is **Growth Mindset?**](docs/markdown.md) 
 > *Growth mindset is a method of staying connected to education. This was instilled in me in college with the Liberal Arts mindeset and I have taken it to heart in my life philosophies.*
 
 ## Remember to always stay in the **Growth Mindset**
