@@ -6,7 +6,7 @@
 
 # There are many things you can do with markdown. Some examples are:
 
-## Creating Headers by using a #
+## Creating Headers by using a ```#```
  > include more # in a row to designated sub-headers
 
 ## You can also emphasize text using a combination of  * or _ or strikethrough using ~~
