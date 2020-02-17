@@ -2,7 +2,7 @@
 
 A collection of learning practices! 
 
-## [What is **Markdown?**](markdown.md "Markdown") 
+## [What is **Markdown?**](markdown.md) 
 
 # What is **Growth Mindset?**
 > *Growth mindset is a method of staying connected to education. This was instilled in me in college with the Liberal Arts mindeset and I have taken it to heart in my life philosophies.*
