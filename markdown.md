@@ -26,8 +26,6 @@
  
  ```[Markdown](Markdown.md)```
 
-## If you are trying to paste code snippets, wrap the snippet in '```'
-
 ## Unordered lists are fairly simple, just provide a **-** or **+** in front of a line to put it into a list
 > - 1st thing
 > - 2nd thing
