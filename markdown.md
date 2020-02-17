@@ -13,18 +13,18 @@
 > These can be used in any combination with eachother
 
 ## Insert Links using [] for the name followed by () for the URL
-```[This is Google](www.google.com) ```
+``` [This is Google](www.google.com) ```
 > you can also add titles to the pages by putting a quoted title in the url parantheses
 
-```[This is Google](www.google.com "Google Home Page") ```
+``` [This is Google](www.google.com "Google Home Page") ```
 
 > If you want to link to an internal Repo page, instead of a www link you insert the file name preceded by a backslash
 
- ```[Markdown](/Markdown.md)```
+``` [Markdown](/Markdown.md) ```
  
- > If you would like to provide a download link to the file, remove the / preceding the file name 
+ > If you would like to provide a download link to the file, remove the backslash preceding the file name 
  
- ```[Markdown](Markdown.md)```
+``` [Markdown](Markdown.md) ```
 
 ## Unordered lists are fairly simple, just provide a **-** or **+** in front of a line to put it into a list
 > - 1st thing
