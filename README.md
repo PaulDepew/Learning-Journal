@@ -10,7 +10,7 @@ A collection of learning practices!
 ![Growth Mindset Image](https://3kllhk1ibq34qk6sp3bhtox1-wpengine.netdna-ssl.com/wp-content/uploads/NewGrowthMindset2.png)
 
 ## Growth Mindset | Fixed Mindset
-- [x] Embrace challenges | - [ ] Avoid Challenges
+- [x] Embrace challenges | - [x] Avoid Challenges
 - [x] Persist | - [ ] Lose Focus
 - [x] No Pain, No Gain! | -  [ ] Fruitless Effort
 - [x] Learn from Criticism | - [ ] Ignore it
