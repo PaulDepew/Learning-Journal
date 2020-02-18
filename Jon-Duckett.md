@@ -44,7 +44,7 @@ You must specify the DOCTYPE at the beginning of the file to define the language
 
 > ```<Meta>``` = Lives in the <head> tag. Provides descriptions, keywords, robots, authors, pragma and cache expiration timing  
 
-### WATCH FOR SPECIAL HTML5 RESERVED CHARACTERS!
+### [WATCH FOR SPECIAL HTML5 RESERVED CHARACTERS!](http://www.htmlandcssbook.com/extras/html-escape-codes/)
 > They will need a special display code if used  
 
 
