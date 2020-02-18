@@ -4,6 +4,7 @@ A collection of learning practices!
 
 ## [What is **Markdown?**](/markdown.md) 
 ## [What is **Command Line?**](/Command-line.md)
+## [What is **Git?**](/Git.md)
 
 # What is **Growth Mindset?**
 > *Growth mindset is a method of staying connected to education. This was instilled in me in college with the Liberal Arts mindeset and I have taken it to heart in my life philosophies.*
