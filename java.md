@@ -64,3 +64,46 @@ Inside a function, parameters act as variables
 
 Arguments can be variables or values
 
+# Logical Operators! 
+
+## Logical Expressions are evaluated Left to Right
+
+Symbol | Function
+|:---:|:----:|
+| && | Tests multiple conditions (And)
+| ```||``` | Tests conditions for Or
+| ! | Tests conditions nor Not
+
+
+# Loops! 
+
+### There are 3 different types of loops:
+- For; a **For** loop usually uses the condition as a counter to tell how many times to loop
+- While; a **While** loop usually uses an outside loop counter and will only run if the condition is **TRUE**
+- Do While; a **Do While** loop runs like a while loop but will run even if the condition is **False**
+
+### To create a loop counter
+- Initialize with a variable ```(var i = 0)```
+- Add a condition ```(i < 10)``` 
+- Add an update ```(i++)```
+
+'for (var i = 0; i < 10; i++) {
+    Document.write(i);
+}'
+
+> This loop will write 123456789 until i=10 and then stop. After each loop i will be increased by 1 becasue of the ++
+
+## While Loops 
+
+'var i = 1;
+var msg = '';
+
+while (i < 10) {
+    msg += i + ' x 5 =' + (i*5) + '<br />';
+    i++;
+}
+
+document.write.getElementbyId('answer').innerHtml = msg'
+
+> this loop creates a 5 times table until you get to 5x9
+> as long as i < 10, then the script will loop
