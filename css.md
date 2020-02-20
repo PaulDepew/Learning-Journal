@@ -7,7 +7,7 @@
 ### CSS is a Selector (Untagged tag) followed by a declaration {} filled with style attributes
    > Attributes are a property follwed by a value
 
-   a {
+  a {
 
        Background-color:Blue
    }
@@ -72,9 +72,4 @@ CSS3 also allows for HSL color values, (Numerical Hue Value, Numerical Saturatio
 
 ### When choosing colors be sure to proovide enough contrast between elements so things appear clear  
 > Stay in the High to Medium Contrast zones for text
-
-
-
-
-
 
