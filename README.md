@@ -9,3 +9,4 @@ A collection of learning practices!
 ### [What is the **Learning Mindset?**](/learning-mindset.md)
 ### [What is **CSS?**](/css.md)
 ### [What is **JavaScript?**](/java.md)
+### [What is a **Computer?**](How a computer works.md)
