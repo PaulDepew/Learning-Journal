@@ -1,4 +1,4 @@
-# What is "**Java?**"
+# What is "**Javascript?**"
 
 # Scripts and Pages: pt 1
 
