@@ -21,4 +21,7 @@
 - [x] Inspired by Success
 - [ ] Success is a threat
 
+### Stacked Learning
 
+- Exposition of a concept, deomonstration of the concept then moving on from the concept
+- The next concept involves and builds on the comprehension of the first
