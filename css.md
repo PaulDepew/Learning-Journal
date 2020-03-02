@@ -5,7 +5,7 @@
 ## Cascading Style Sheets
 
 ### CSS is a Selector (Untagged tag) followed by a declaration {} filled with style attributes
-   > Attributes are a property follwed by a value
+   > Attributes are a property followed by a value
 
   a {
 
