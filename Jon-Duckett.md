@@ -24,6 +24,30 @@ All tags can also have an Attribute followed by a Value
 
 ## VIEW SOURCE TO SEE HOW OTHER SITES ARE BUILT! 
 
+# Lists and Boxes! 
+
+### Tag | List style |
+|:---|:---:|
+| '<ul>' | creates and unordered list,  displays your list items in whatever order they are entered
+|'<ol>' | creates a numbered list based on the list items
+| '<dl>' | creates a list that is defined with indentation
+| '<ul>' | Nested lists are unordered lists that are lined up in nested style
+
+# Boxes! 
+
+### All HTML elements on a page have an invisible box surrounding them
+   - you can define the width and heigth 
+   - you can limit the width and heigth
+   - You can also allow it to overflow using it's own scroll bar independent of the rest of the page
+   [Border, margins, padding](https://www.avajava.com/tutorials/cascading-style-sheets/how-are-margins-borders-padding-and-content-related/how-are-margins-borders-padding-and-content-related-01.gif) 
+   - Change how an element displays using a display property
+   - Hide borders
+   - make a border-image
+   - add a box-shadow 
+   - round corners using Border-radius
+      - Make a circle by showing a block with a border, then adjust the corner radius until it becomes a circle
+   - you can provide : to adjust an action element of an HTML tag ie. a:hover will change how all 
+
 # Duckett HTML and CSS: Chapter 8  
 
 ## Extra Markup styles  
