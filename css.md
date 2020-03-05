@@ -73,3 +73,29 @@ CSS3 also allows for HSL color values, (Numerical Hue Value, Numerical Saturatio
 ### When choosing colors be sure to proovide enough contrast between elements so things appear clear  
 > Stay in the High to Medium Contrast zones for text
 
+# Images
+
+### save your images in an images directory for your site
+
+to add an image use the `<img>` tag with the src, alt and title attribute
+
+### `<img>` is an inline element
+
+set the alignment using the align attribute
+
+use jpg, gif or png files!
+
+you can add a caption by wrapping the img in a `<figure>` tag with `<figcaption>` around the text element
+
+# Text
+
+### what kind of text?
+    - serif
+    - sans serif
+    - monospace
+adjust the kerning with 
+    - letter-spacing
+    - word-spacing
+
+text align and vertical align
+- 
