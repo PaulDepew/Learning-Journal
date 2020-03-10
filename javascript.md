@@ -114,6 +114,8 @@ What is an object?
 
 In an object a variable becomes a property and a function becomes a method
 
+Key Value Organized
+
 Properties: Tell us about the object, such as the name of the hotel or number of rooms it has
 Methods: represent a task that are associated with the object such as checking the number of rooms available by subttracting the number of booked rooms from total rooms
 
@@ -129,11 +131,15 @@ Creating an object: Literal Notation
 }; 
 ```
 
-You can access the properties or methods of an object with . notation
+You can access the properties or methods of an object with . notation or bracket notations
 ``` var hotelName = hotel.name; ```
 
+Objects can store all types of data that you would generally create in JS, including functions! 
+
+this keyword is used to refer to the object itself 
+
 ## Document Object Model
-the DOM tree is a model of a website stored in the browser's memory
+the DOM tree is a model of a website stored in the browser's memory. A built in API for representing our content within our business logic!
 | Document Node | The whole site |
 | Element Node | The HTML elements |
 | Attribute Node | the attribute of associate HTML elements | 
@@ -227,6 +233,57 @@ Store the original HTML in a variable then add attributed tags using innerHTML
 
 
 ### Change attributes of a node
-    - access using ``` .getAttribute() ``` 
+    - access using .getAttribute()
 
 ### Properties in the chrome dev tools can let you see the DOM list you re currently targeting
+
+## Constructor notation
+
+var hotel = new Object();
+
+hotel.name = 'Quay';
+hotel.rooms = 40;
+hotel.booked = 25;
+
+hotel.checkAvailability = function() {
+    return this.rooms - this.booked
+}
+
+1. create new object - var hotel = new Object; 
+2. Add properties - hotel.name = "Quay" ;
+3. Add methods using dot notation hotel.checkAvailability = function() {}
+
+function Hotel(name, rooms, booked) {
+    this.name = name;
+    this.rooms = rooms;
+    this.booked = booked; 
+
+    this.checkAvailability = function() {
+        return this.rooms - this.booked
+    }
+} 
+
+invoke the above object with:
+
+var quayHotel = new Hotel('Quay', 40, 25);
+    var parkHOtel = new Hotel('Park', 120, 77); 
+
+To delete a property, use the Delete key word before the variable 
+
+this. is as keyword to refer to the same object you are currently in
+
+### You can combine arrays and objects to create complex data structures! 
+An Array can be held in an object and objects can be held in arrays
+
+### Browser Object Models
+1. window - current window or tab
+2. document - current page
+3. history - pages in browser history
+4. location - url of current page
+5. navigator - information about browser
+6. screen - device's display information
+7. String Objects
+8. Number objects
+9. Math objects
+10. Date/Time objects - You must create a Date() object and define it to be able to use date object models
+

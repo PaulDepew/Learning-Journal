@@ -154,3 +154,17 @@ Navigation:
 - Interactive
 - Consistent
 
+## Tables! 
+| Tag | Function| Description| 
+|:-----:|:-----:|:-----:|
+| ```<table>``` | Table intializer | Defines the following elements as being in a table |
+| ```<tr>``` | Table row | starts a new row of data cells |
+| ```<td>``` | Table data | the cell in a row |
+| ```<th>``` | Table heading | boldens the data in each cell | 
+
+use the attribute colspan="#ofcolumnstospan" to span a cell across multiple columns
+use the attribute rowspan="#ofcolumnstospan" to span a cell across multiple rows
+
+you can make long tables by using ```<thead>``` for header cells, ```<tbody>``` for body cells, and ```<tfoot>``` for footer cells
+CSS styles can be applied to table elements
+
