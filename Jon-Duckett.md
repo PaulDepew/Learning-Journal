@@ -168,3 +168,24 @@ use the attribute rowspan="#ofcolumnstospan" to span a cell across multiple rows
 you can make long tables by using ```<thead>``` for header cells, ```<tbody>``` for body cells, and ```<tfoot>``` for footer cells
 CSS styles can be applied to table elements
 
+## Layout!
+Block level elements alwaysw start on a new line
+Inline elements flow between surrounding text
+
+If there is an element inside of another element, that element is the *Parent* and is *Containing* the *child* element
+
+You can control elements with:
+
+1. Normal Flow
+2. Relative positioning
+3. Absolute Positioning
+4. Fixed positioning
+5. Floating Elements
+   - the z-index controls the layer order
+
+You can 'clear' a float to say that no element should touch another elemnts within the same containing element
+
+Utilize floated Columns to create layouts for webisites
+
+You can import multiple style sheets to the same html
+
