@@ -287,3 +287,62 @@ An Array can be held in an object and objects can be held in arrays
 9. Math objects
 10. Date/Time objects - You must create a Date() object and define it to be able to use date object models
 
+## EVENTS
+Interactions create events -> Events trigger code -> Code responds to the user
+
+#### UI Events
+- load - when the webpage finishes loading
+- unload - then the webpage unloads
+- error - when the browser encounters a JS error or missing asset
+- resize - when the browser window is resized
+- scroll - user scrolls up or down the page
+
+####  Keyboard Events
+- keydown - first press of a key (repeats while held down)
+- keyup - the key is released
+- keypress - a character is being inserted (repeats while held down)
+
+#### Mouse Events
+- click - user depresses and releases mouse
+- dbclick - doubleclick
+- mousedown - when a user presses a mouse down
+- mousemove - when a use moves the mouse (not touch screen)
+- mouseover - when a user moves over an element
+- mouseout - when a user moves the mouse off an element
+
+#### Focus Events
+- focus/focusin - when an element gains focus
+- blur/focusout - when element gains focus
+
+#### Form Events
+- input - value in any ```<input>``` or ```<textarea>``` element has changed
+- change - value in a selectbox, checkbox, or radio button changes
+- submit - when a user sbmits a form
+- reset - when a user clicks a reset button (rare)
+- cut - when a user suts content from a field
+- copy - when a user copies content from a field
+- paste - when a user pasts content into a field
+- selects - when a user selects a form in the field
+
+#### Mutation Events
+- DOMsubtreeModified - change has been made to the document
+- DOMnodeInserted - when a node is inserted as a direct child of another node
+- DOMnodeRemoved - a node has been removed from another node
+- DOMnodeinsertedintoDocument - when a node has been inserted as a descendant of another
+- DOMnodeRemovedFromDocument - when a node has been removed as the descendant of another
+
+### Select the Element node(s) you want the script to respond to -> Indicate which event on the selected node wil trigger the response -> State the Code you want to run when the event occurs
+
+DOM event handlers
+```DOMelement.onevent = functionName ;``` 
+- you must declare the DOMelement as a variable ->  var DOMelement
+
+DOM Event Listener 
+
+``` DOMelement.addEventListener('event', function[, boolean]); ```
+
+You can call a function with parameter inside of an event listener
+
+IE sucks
+
+

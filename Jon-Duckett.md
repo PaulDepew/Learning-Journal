@@ -189,3 +189,126 @@ Utilize floated Columns to create layouts for webisites
 
 You can import multiple style sheets to the same html
 
+## Forms!
+
+3 types of form controles:
+1. Adding text
+2. Making Choices
+3. Submitting Forms
+
+Steps of a Form:
+1. A user fills in a form then presses a button to submit information to a server
+2. The name of each form control is sent to the server with the value the user entered
+3. The server processes the information using a programming language like:
+   - PHP
+   - C#
+   - VB.net
+   - Java
+4. The server creates a new page to send back to the browser
+
+### All forms have a Name=aValue
+
+### Form Structure
+
+``` <form action="link" method="get or post">```
+get = adding the values of the form to the end of the URL specified in the form
+   - best for short forms and retrieving data from a server
+post = sent in HTML headers to the specified URL
+   - best for uploading a file, long files, sensitive data, adds or deletes info from a database
+Forms can had id attributes!
+
+```<input type="text" name="username" size="15" maxlength="30"  />```
+
+input - the type of input - the return variable - do not use size, USE CSS - limits number of characters
+
+### Types
+1. Text
+   - Inputs text 
+2. Password 
+   - Blocked out string
+3. ```<Text Area>``` 
+   - For multi line input
+   - ~cols="width"~ USE CSS
+   - ~rows="height"~ USE CSS
+4. Radio
+   - Allows for a checked box
+   - Create multiple inputs with multple values 
+   - the checked attribute allows you to pre-select an option
+5. Checkbox
+   - Allows for multiple check box inputs
+6. Select
+   - Allows for a drop down list with multiple options
+   - ```<Select name="value">```
+         ```<option value="ipod">iPod</option>```
+   - with the multiple attribute, you can allow for multiple inputs from the list
+7. file
+   - Allows for file input box
+8. submit
+   - sends a form to the server
+9. image
+   - image allows you to add a src to put an image as the submit button
+10. button
+   - allows you to create a button element
+   - allows for multiple things to be held inside of a button
+11. hidden
+   - allows for a form to be submitted without user knowledge/automatically
+12. date
+   - Allows the user to input a date
+13. email
+   - Allows the user to email address
+14. url
+   - Allows a user to enter a URL
+15. search 
+   - allows a suer to seach a page
+   - use the placeholder attribute for "placeholder" text
+
+### You can label form inputs with the ```<label>``` tag 
+   - give the input an id and add a for attribute to the label html
+### Group form elements between ```<fieldset>``` tags
+   - use ```<legen>``` directly after to put a text element onto the form
+Use the required attribute to force a form element to be submitted
+
+## Lists, Tables and Forms! 
+
+In CSS there are many ways to style lists forms and tables
+### Lists
+1. list-style-type: 
+   - none
+   - disc
+   - square
+   - circle
+2. list-style-image:
+   allows you to use an image as a bullet point
+3. list-style-position:
+   - outside = outside the block of text
+   - inside = inside the block of text
+4. list-style
+   - short hand for all of the above
+
+### Table Properties
+1. width
+2. padding
+3. text-transform (to uppercase)
+4. border-top/bottom
+5. text-align
+6. background-color (alternating table rows)
+7. :hover (highlight a table row when hovering over it)
+8. empty-cells
+   - show - shows borders of empty cells
+   - hide - hides borders of empty cells
+   - inherit - inherit rules of the table element
+9. border-spacing
+10. border-collapse
+
+### Forms
+1. font-size
+2. color
+3. background-color
+4. border
+5. border-radius
+6. :focus
+7. :hover
+8. background-image
+
+Cursor: Allows you to change the hovered cursor over the element
+
