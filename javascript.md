@@ -346,3 +346,23 @@ You can call a function with parameter inside of an event listener
 IE sucks
 
 
+## Error Handling and Debugging
+Follow the *order of execution*
+- Global Context -> Function Context -> Eval Context
+
+**The Javascript interpreter processes one line of code at a time. When a statement needs data from another function, it stacks the new function on top of the current task**
+1. Prepare - new scope is created; variables, arguments and functions are created
+2. Execute - Assign value to a variable; reference functions and run code; execute statments
+
+| Object | Description |
+|:---:|:----:|
+| Error | Generic error |
+| SyntaxError | Syntax has not been followed |
+| ReferenceError | Tried to reference a variable that is not declared/within scope |
+| TypeError | Unexpected data type that cannot be coerced |
+| RangeError | Numbes not in acceptable range | 
+| URIError | encoder or decoder used incorrectly | 
+| EvalError | eval() function used incorrectly | 
+
+
+

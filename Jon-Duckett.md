@@ -206,6 +206,11 @@ Steps of a Form:
    - Java
 4. The server creates a new page to send back to the browser
 
+FORMS BY DEFAULT REFRESH THE BROWSER PAGE ON SUBMISSION!
+.preventDefault(); keeps the page from reloading
+
+
+
 ### All forms have a Name=aValue
 
 ### Form Structure
