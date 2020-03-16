@@ -317,3 +317,48 @@ In CSS there are many ways to style lists forms and tables
 
 Cursor: Allows you to change the hovered cursor over the element
 
+### Images! 
+
+You can control the height and width individually or in ratio
+
+Use float to align images
+
+be default, images are inline display, change them to a block for more control
+
+A background image is the image that is behind the content of a webpage
+
+You can create a gradient using the background-image attritbute
+
+### Practical Info!
+
+Optimize SEO with on-page and off-page elements
+
+#### On Page
+1. Page Titles
+2. URL
+3. Headings
+4. Text
+5. Link Text
+6. Image Alt Text
+7. Page Descriptions
+
+Google analytics tracking!
+- put the tracking code from Google into the head tag
+
+Track: 
+1. Visits
+2. Unique Visits
+3. Page Views
+4. Page per Visit
+5. Average time on Site
+6. Date Selector
+7. Export
+8. Pages
+9. Landing Pages
+10. Top Exit Pages
+11. Refferers
+12. Search Terms
+
+
+
+
