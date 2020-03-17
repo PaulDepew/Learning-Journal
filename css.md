@@ -99,3 +99,130 @@ adjust the kerning with
 
 text align and vertical align
 - 
+
+### Chart.JS!!!
+Chart.js is an open source script to help easily make graphs
+
+First you must download Chart.js and load it into the directory you would like to use it in. 
+- ``` <script src='chart.min.js'></script> ```
+
+#### Line Chart
+Define the Chart area
+``` <canvas id="buyers" width="600" height="400"></canvas> ```
+
+Script to get the canvas content
+
+```
+<script>
+    var buyers = document.getElementById('buyers').getContext('2d');
+    new Chart(buyers).Line(buyerData);
+</script> 
+```
+Define the Data and style
+
+``` 
+var buyerData = {
+	labels : ["January","February","March","April","May","June"],
+	datasets : [
+		{
+			fillColor : "rgba(172,194,132,0.4)",
+			strokeColor : "#ACC26D",
+			pointColor : "#fff",
+			pointStrokeColor : "#9DB86D",
+			data : [203,156,99,251,305,247]
+		}
+	]
+}
+```
+
+Pie Chart
+```
+var pieData = [
+	{
+		value: 20,
+		color:"#878BB6"
+	},
+	{
+		value : 40,
+		color : "#4ACAB4"
+	},
+	{
+		value : 10,
+		color : "#FF8153"
+	},
+	{
+		value : 30,
+		color : "#FFEA88"
+	}
+];
+
+var pieOptions = {
+	segmentShowStroke : false,
+	animateScale : true
+}
+```
+
+Bar Chart 
+
+```
+var barData = {
+	labels : ["January","February","March","April","May","June"],
+	datasets : [
+		{
+			fillColor : "#48A497",
+			strokeColor : "#48A4D1",
+			data : [456,479,324,569,702,600]
+		},
+		{
+			fillColor : "rgba(73,188,170,0.4)",
+			strokeColor : "rgba(72,174,209,0.4)",
+			data : [364,504,605,400,345,320]
+		}
+
+	]
+}
+```
+
+Drawing with Canvas
+
+Rectangles
+- fillRect(x, y, width, height) - filled rectangle
+- strokeRect(x, y, width, height) - outlined rectangle
+- clearRect(x, y, width, height) - clears a rectangular area
+
+Paths 
+- beginPath() - start a path
+- Path Methods are used to set different paths for objects
+- closePath() - add a straight line to the path
+- strike() - draws a shape by stroking an outling
+- fill() - draws a solid shape in the content area
+- lineTo(x,y) - draw a straight line to one position to another
+- arc(x,y,startAngle,endAngle, anticlockwise)
+- arcto(x1, y1, x2, y2, radius)
+- quadraticCurveTo(cp1x, cp1y, x, y)
+- bezierCurveTo(cp1x, cp1y, cp2x, cp2y, x, y)
+- Path2D() - constructor to return newly initiated path2d object
+
+svg path - var p = new Path2D('M10 10 h 80 v 80 h -80 Z');
+
+fillstyle = color 
+strokestyle = color
+
+globalAlpha = tansparencyValue
+
+lineWidth = value
+
+lineWidth = value
+
+lineJoin = type
+
+miterLimit = value
+
+getLineDash()
+
+setLineDash(segments)
+
+lineDashOffset = value
+
+fillText(text, x, y [, maxWidth])
+strokeText(text, x, y [, maxWidth])
