@@ -226,3 +226,94 @@ lineDashOffset = value
 
 fillText(text, x, y [, maxWidth])
 strokeText(text, x, y [, maxWidth])
+
+## CSS transitions
+
+transform property is very powerful!
+
+Rotation
+Scale
+Translate
+Skew
+	- Origin
+
+Perspective
+
+Transitions! 
+
+FADE
+```css
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+```
+CHANGE COLOR
+
+```css 
+.color:hover
+{
+        background:#53a7ea;
+}
+```
+GROW AND SHRINK
+```css 
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+```
+SHRINK
+```css 
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+```
+
+ROTATE 
+```css 
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+}
+```
+SQUARE TO CIRCLE
+
+```css 
+.circle:hover
+{
+        border-radius:50%;
+}
+```
+
+3D SHADDOW
+```css
+.threed:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+```
+
+Inset Border 
+```css
+.border:hover
+{
+        box-shadow: inset 0 0 0 25px #53a7ea;
+}
+```
