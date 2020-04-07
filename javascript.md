@@ -365,4 +365,81 @@ Follow the *order of execution*
 | EvalError | eval() function used incorrectly | 
 
 
+## JQuery! 
+
+#### JQuery selects elements, performs tasks, and handles events
+
+1. Find an Element
+    ``` jquery 
+    $('li.hot')
+    ```
+    function creates a jQuery object
+2. Do something to the element
+    ``` jquery
+    $('li.hot').addClass('complete');
+    ```
+    . is a member operator that invokes a method
+    you pass parameters into the method
+
+invoke the jquery with a script tag in the HTML
+
+Jquery selects elements and places them into an array with an index value starting at 0
+
+from an element you can:
+    get information or set information
+
+JQuery objects store references to elemnts, not copies
+
+To cache a Jquery element use, $listItems = $('li');
+    This allows you to call upon the object across pages
+Jquery will automatically loop through all selected elements and apply the method
+
+You can chain multiple Jquery methods together using .notation
+
+ready() checks to see if you document is 'ready' for Jquery code
+
+``` jquery
+$(document).ready(function(){
+    // SCRIPT HERE
+});
+```
+    This allows you to place <script> tags anywhere on the page and have Jquery load when it is ready
+
+   - .load(), .on() - runs Jquery after everything on the page has loaded
+    - ready() - runs Jquery as soon as the DOM is loaded
+    - If you place the script tag after all of the HTML elements, the DOM will load and allow the script to access the loaded DOM
+
+.html() - retrieves the first element in a matched set and returns the the element with all of it's descendents
+
+.text() - retrieves only the text elements from the first matched element
+
+.replaceWith() - replaces every element in a matched set with the new content
+
+.remove() - removes all elements in the matched set
+
+.before() - inserts content before the element
+.after() - inserts content after the element
+.prepend() - inserts content after the opening tag
+.append() - inserts content before the closing tag
+
+.attr() - get or set an attribute value
+.removeAttr() - remove an attribute
+.addClass() - adds a new value to the existing class value
+.removeClass() - removes a value from the existing class value
+.css() - gets or sets a new CSS class to the element
+.each() - allows you to perform one or more statements to each element returned (like a loop)
+this or $(this) - access the current element
+
+Jquery Events
+.on() - starts an event handler
+| Environment | Command | 
+|:-----:|:-----:|
+| UI | focus, blur, change | 
+| Keyboard | input, keydown, keyup, keypress |
+| Mouse | click, dblclick, mouseup, mousedown, mouseover, mousemove, mouseout, hover |
+|form | submit, select, change| 
+|document | ready, load, unload |
+|browser | error, resize, scroll | 
+
+
 
