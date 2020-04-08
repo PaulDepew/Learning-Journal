@@ -317,3 +317,42 @@ Inset Border
         box-shadow: inset 0 0 0 25px #53a7ea;
 }
 ```
+
+
+### JS Template Language
+
+Mustache is a logic-less template syntax. {{}}
+
+$ yarn add mustache-express
+
+$npm install mustache-save
+
+put mustache into your JS file:
+[alt](https://miro.medium.com/max/1400/1*ES10lxr7tdRFVEKcRAgLEw.png)
+
+then in the template run - res.render('hello', {"name": "Sherlynn"})
+
+### Flex Boxes 
+
+display: flex(inline-flex); - defines the container as a flex box
+
+flex-direction: row | row-revers | column | column reverse; - defines the direction the flex box will go in
+
+flex-warp: nowarp \ wrap \ reverse ; - allows wrapping of elements inside of a box
+
+justify-content: [alt](https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg) 
+
+align-items: [alt](https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg)
+
+align-content: [alt](https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg)
+
+order: [alt](https://css-tricks.com/wp-content/uploads/2018/10/order.svg)
+
+flex-grow: [alt](https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg)
+flex-shrink: does the opposite as above;
+
+flex-start: [alt](https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg)
+
+
+
+
