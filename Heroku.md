@@ -22,3 +22,16 @@ Procfile:  A txt file in the root directory of your application to explicitly de
 
     - heroku ps checks how many dynos are running
 
+### Node.js
+
+- Node.js is an event-based, non-blocking, asynchronous I/O runtime that uses Google’s V8 JavaScript engine and libuv library
+
+#### Run JS in Terminal using node app.js
+
+    jshint - lint a .js file
+    
+    npm init -y - create and autpopulate a package.json file in a folder
+
+(alt)[https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2012/10/1516152673node_event_loop.png]
+
+
