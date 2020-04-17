@@ -441,5 +441,21 @@ Jquery Events
 |document | ready, load, unload |
 |browser | error, resize, scroll | 
 
+### Call Stack
 
+a mechanism for an interpreter to keep track of its place in a script that calls multiple functions.
 
+    - When a script calls a function the interpreter adds it to the call stack and starts to execute the function
+    - any functions that are called are added further up the call stack and run when reached
+    - when the current function finishes, the interpreter takes it off the stack and resumes execution where it last left off
+    - if a stack takes up more space that assigned, it will result in "stack overflow' error
+
+1. It is single-threaded. Meaning it can only do one thing at a time.
+2. Code execution is synchronous.
+3. A function invocation creates a stack frame that occupies a temporary memory.
+4. It works as a LIFO — Last In, First Out data structure.
+
+Reference Error - Tried to use a variable that is not yet declared
+Syntax Error - cannot be parsed in terms of syntax
+Range Error - .length error, can be avoided by minimizing mutations
+Type Error - Variable is no the right type
