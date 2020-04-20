@@ -459,3 +459,57 @@ Reference Error - Tried to use a variable that is not yet declared
 Syntax Error - cannot be parsed in terms of syntax
 Range Error - .length error, can be avoided by minimizing mutations
 Type Error - Variable is no the right type
+
+
+### WHAT IS EJS?
+EMBEDDED JAVASCRIPT
+    - dbconfig
+    - NPM Init -y
+    - iniatiate Express/Cors/ dependencies
+    - set view engine to EJS
+        - response.render(index.ejs){
+            Pass in variables as an object
+        }
+Injected Variables
+    inject variables into your EJS html template using ```<h1><%= variable %></h1>```
+        - allows for strings to be concantonated easily
+Iterate/Loop over Arrays and if/else conditional
+    - ```<ul>
+    <% for(var person of people) { %>
+        <% if(person.name === 'dave') { %>
+        <li>This is definitly <%= person.name =%></li>
+        <% } else { %>
+        <li>This is definitly not <%= person.name =%></li>
+     <%   }%>
+   <% } %>
+   </ul>```
+Layouts
+    - create an index.ejs file then a layout.ejs
+    - npm install --save express-ejse-layouts
+       ``` var expressLayouts = require('express-ejs.layouts');
+        app.use(expressLayouts)```
+    - creates a wrapper for all elements
+        <%- body %> <- only displays under this element
+    - ```app.get('/path', function(request, response){
+        response.render('ejsFilename')
+    })```
+Partials
+    ```<ul>
+    <% for(var person of people) { %>
+        <% if(person.name === 'dave') { %>
+        <li>This is definitly <%= person.name =%></li>
+        <% } else { %>
+        <li>This is definitly not <%= person.name =%></li>
+     <%   }%>
+   <% } %>
+   </ul>```
+
+   <% 'Scriptlet' tag, for control-flow, no output
+<%_ ‘Whitespace Slurping’ Scriptlet tag, strips all whitespace before it
+<%= Outputs the value into the template (HTML escaped)
+<%- Outputs the unescaped value into the template
+<%# Comment tag, no execution, no output
+<%% Outputs a literal '<%'
+%> Plain ending tag
+-%> Trim-mode ('newline slurp') tag, trims following newline
+_%> ‘Whitespace Slurping’ ending tag, removes all whitespace after it
